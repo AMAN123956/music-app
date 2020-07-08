@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin:0;
+    padding:0;
+
+}
+
+.player{
+    margin-left:35%;
+    margin-top:3%;
+    width:30%;
+    box-shadow:4px 10px 14px red;
+    border:2px solid yellow;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding:53px;
+    margin-bottom: 15px;
+}
+img{
+    width:300px;
+    margin-left:15%;
+    margin-top: 10%;
+    
+
+}
+
+
+.now-playing{
+    margin-top:-50px;
+    color:white;
+    font-family:sans-serif;
+    font-weight:800;
+}
+.track-name{
+    color:white;
+    font-size:1.9rem;
+    margin-top:2px;
+    font-weight:1000;
+    
+}
+.track-artist{
+    color:whitesmoke;
+}
+.detail{
+    text-align: center;
+    margin-top:-5px;
+}
+
+
+
+/* slider-container */
+.current-time{
+    margin-top: 60px;
+}
+input{
+    width:400px;
+
+}
+
+.button{
+    margin-left:28%;
+    display:flex;
+    flex-direction: row;
+}
+.prev-track{
+    margin-left:20px;
+    margin-top:13px;
+    color:white;
+}
+.next-track{
+    margin-left: 20px;
+    margin-top:13px;
+    color:white;
+}
+.playpause-track{
+    margin-left: 30px;
+    font-size:0.8rem;
+    color:white;
+}
+
+
+/* Responsive designing */
+@media screen and (max-width:1100px){
+    body{
+        background-color: blue;
+    }
+    .player{
+        
+        margin-left:8px;
+        width:86%;
+        height:1200px;
+        
+    }
+    input{
+        width:300px;
+    }
+    .now-playing{
+        font-size:3rem;
+    }
+    .track-name{
+        font-size:3.5rem;
+    }
+    .track-artist{
+        font-size:3rem;
+    }
+    img{
+        width:600px;
+        height:600px;
+    }
+    input{
+        width:800px;
+        height:60px;
+    }
+    .button{
+        margin-left:300px;
+    }
+    .playpause-track{
+        font-size: 0.8rem;
+    }
+    .volume_slider{
+        margin-top:20px;
+    }
+
+    .current-time{
+        font-size:2rem;
+        color:white;
+    }
+    .total-duration{
+        font-size:2rem;
+        color:white;
+    }
+    .next-track{
+        margin-left: 55px;
+    }
+    .prev-track{
+        margin-right:25px;
+    }
+}
+
+
+
